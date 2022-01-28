@@ -1,0 +1,88 @@
+/* PC*/
+@media (min-width: 64em){
+    
+}
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em){
+    
+}
+/* Tablet va  */
+/* Mobile và Mobile */
+@media (max-width: 63.9375em){
+    .btn{
+        padding: 15px 17px;
+    }
+    .contact-form .form-control {
+        padding: 15px;
+    }
+    #footer .social {
+       
+        font-size: 44px;
+    }
+    #footer .social a{
+        margin: 0 6px;
+    }
+    #footer .copyright{
+        padding: 12px 0;
+        display: inline-block;
+    }
+    .contact-info{
+        line-height: 2;
+    }
+}   
+@media (max-width: 46.1875em){
+    .s-full-width{
+        width: 100% !important;
+        
+    }
+    .s-col-full{
+        width: 100% !important;
+    }
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+    #header{
+        overflow: hidden;
+    /* fix cho mobile: những ông con nào bị nhô ra khỏi thằng cha thì 
+    sẽ dùng  overflow: hidden; để ẩn đi*/
+    }
+    /* li:first-child: chỉ lấy thằng li đầu tiên con của nav */
+    #header .mobile-menu-btn{
+        display: block;
+        /* để hiện nút menu trên giao diện mobile */
+    }
+    #header .search-icon{
+        display: none;
+        /* ẩn đi */
+    }
+    #nav {
+        display: block;
+    }
+    #nav li a {
+        padding: 1px 24px;
+    }
+    #nav > li{
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+        /* để home không kế thừa chiều ngang, tác dụng không ấm được toàn bộ */
+    }
+    #nav .subnav {
+        position: initial;
+        /* reset về giá trị mặc định */
+        background-color: rgb(235, 100, 10);
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+        /* đệm vào để hiển thị sẽ giống con của more */
+    }
+    #content .member-item{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .contact-form{
+        margin-top: 32px;
+    }
+}
